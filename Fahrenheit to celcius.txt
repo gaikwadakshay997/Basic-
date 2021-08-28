@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+
+
+    float Fahrenheit,c;
+
+    printf("enter Fahrenheit:");
+    scanf("%f",&Fahrenheit);
+
+    c= ((Fahrenheit-32)*5)/9;
+
+    printf("\n after converting Fahrenheit to celcius:%f",c);
+
+    return 0;
+
+
+}
+
+O/P - enter Fahrenheit:64
+
+ after converting Fahrenheit to celcius:17.777779

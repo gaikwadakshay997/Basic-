@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+
+    int a,b,add;
+
+    printf("enter 2 numbers:");
+    scanf("%d %d",&a,&b);
+
+    add = a+b;
+
+    printf("\n addtion of two numbers:%d",add);
+    return 0;
+}
+
+O/P - enter 2 numbers:10 10
+
+ addtion of two numbers:20

@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main()
+{
+
+    int a,b,c;
+
+    printf("enter three numbers:");
+    scanf("%d %d %d", &a,&b,&c);
+
+    printf("a =%d\t b =%d\t c =%d\n",a,b,c);
+
+    if(a>b)
+    {
+        if(a>c)
+        {
+            printf("a is greater:%d",a);
+        }
+        else
+        {
+            printf("c is greater :%d",c);
+        }
+    }
+    else if(b>c)
+    {
+        printf("b is greater :%d",b);
+    }
+    else
+    {
+        printf("c is greater :%d",c);
+    }
+    }
+
+
+O/P - enter three numbers:10 5 20
+a =10	 b =5	 c =20
+c is greater :20

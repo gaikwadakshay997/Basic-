@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+    int p,r,t,si;
+    printf("enter price:");
+    scanf("%d",&p);
+
+    printf("\nenter rate:");
+    scanf("%d",&r);
+
+    printf("\n enter time:");
+    scanf("%d",&t);
+
+    si = (p*r*t)/100;
+
+    printf("\nthe simple interest is:%d",si);
+    return 0;
+}
+
+
+O/P -
+	enter price:70000
+
+	enter rate:10
+
+ 	enter time:3
+
+	the simple interest is:21000
